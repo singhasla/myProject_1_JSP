@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+.input_black {
+    border: 1px solid #111111 !important;
+    color: #111111 !important;
+} 
+
+.up_down {
+	height: 30px !important;
+    width: 100% !important;
+    font-size: 15px;
+    color: #000000 !important;
+    padding-left: 0px !important;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+}
+
+.margin_btm {
+	margin-bottom: 30px !important;
+}
+
+.myt_input1 {
+	height: 30px !important;
+    width: 100% !important;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 20px;
+    border: 0px solid #e1e1e1 !important;
+    margin-bottom: 0px !important;
+}
+
+.myt_head {
+	width: 5em !important;
+	text-align:center !important;
+	padding-top: 15px !important;
+	background-color:#e1e1e1;
+}
+
+.myt_textarea {
+	height: 50px;
+    width: 100% !important;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 20px;
+    border: 0px solid #e1e1e1 !important;
+    margin-bottom: 0px !important;
+}
+
+.my_widget span {
+    font-size: 14px;
+    font-family: "Aldrich", sans-serif;
+    color: #b7b7b7;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 130px;
+}
+

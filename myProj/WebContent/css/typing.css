@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+#typewriter {
+     font-size: 400%;
+     white-space: nowrap;
+     overflow: hidden;
+     border-right: .15em solid black;
+     -webkit-animation: typing 2s steps(26, end), blink-caret 1s step-end infinite;
+     				/* 타이핑 3초만에 완성(글자출력폭26)	, 커서(1초마다 깜빡임, 무한) */
+     -webkit-animation-delay: 2s;
+     -webkit-animation-fill-mode: both;
+     -moz-animation: typing 3s steps(26, end), blink-caret 1s step-end infinite;
+     -moz-animation-delay: 2s;
+} 
+
+/* The typing effect */
+
+@keyframes typing {
+     from {
+       width: 0;
+     }
+     to {
+       width: 13em;	/* 글자폭 .. 맞춰줘야지 가운데로 옴 */
+     }
+}
+@keyframes blink-caret {
+     from, to {
+       border-color: transparent
+     }
+     50% {
+       border-color: #fff;
+     }
+}
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1450px) {
+	
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+#typewriter {
+     font-size: 300%;
+}
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#typewriter {
+     font-size: 300%;
+}
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+#typewriter {
+     font-size: 200%;
+}
+}
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+	#typewriter {
+     font-size: 150%;
+	}
+}
