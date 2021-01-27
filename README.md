@@ -1,6 +1,7 @@
 # 개인프로젝트1
 
 ## 소개 : OpenOffice 
+### https://github.com/singhasla/ITwill_myProject/blob/master/Portfolio1.pdf
 ### (Model1패턴 JSP로 웹사이트 제작)
    - OpenOffice(공유오피스)는 근무환경이 적합하지 않은 이용자들에게 원활한 업무를 제공할 수 있도록<br>
    입주신청을 할 수 있는 웹사이트입니다.
